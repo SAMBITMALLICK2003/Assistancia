@@ -1,0 +1,524 @@
+body {
+  margin: 0;
+  position: relative;
+  background-image: url("bg.jpg");
+  background-attachment: fixed;
+  background-size: 100vw;
+}
+.div1 {
+  height: 45vw;
+  width: 100vw;
+}
+.div2 {
+  background-image: url("bg1.jpg");
+  background-size: 100vw;
+  background-size: cover;
+  width: 100vw;
+  height: 85vw;
+}
+.hr1 {
+  border-style: solid;
+  border-width: 10px;
+  width: 13.0208333vw;
+  margin-top: 0px;
+  margin-left: 8.46354167vw;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-color: red;
+}
+.p1 {
+  color: white;
+  font-size: 5vw;
+  margin-left: 9.765625vw;
+  margin-top: 9.765625vw;
+  margin-bottom: 1.953125vw;
+  padding-top: 30px;
+  font-family: 'Dancing Script', cursive;
+}
+.p2{
+  width: 64.0833333vw;
+  color: white;
+  margin-left: 26.0416667vw;
+  margin-top: 6.51041667vw;
+  font-family: 'Arvo', serif;
+  font-size: 3vw;
+  padding-bottom: 50px;
+}
+
+*{
+ font-family:Nunito, sans-serif;
+}
+.text-blk{
+ margin-top:0px;
+ margin-right:0px;
+ margin-bottom:0px;
+ margin-left:0px;
+ line-height:25px;
+}
+.responsive-cell-block{
+ min-height:75px;
+}
+.responsive-container-block{
+ min-height:75px;
+ height:fit-content;
+ width:100%;
+ display:flex;
+ flex-wrap:wrap;
+ margin-top:0px;
+ margin-right:auto;
+ margin-bottom:0px;
+ margin-left:auto;
+ justify-content:space-evenly;
+}
+.outer-container{
+ padding-top:10px;
+ padding-right:50px;
+ padding-bottom:10px;
+ padding-left:50px;
+ background-color: #FFF2F2;
+}
+.inner-container{
+ max-width:1320px;
+ flex-direction:column;
+ align-items:center;
+ margin-top:50px;
+ margin-right:auto;
+ margin-bottom:50px;
+ margin-left:auto;
+}
+.section-head-text{
+ margin-top:0px;
+ margin-right:0px;
+ margin-bottom:5px;
+ margin-left:0px;
+ font-size:35px;
+ font-weight:700;
+ line-height:48px;
+ color:#E0144C;
+ margin:0 0 10px 0;
+ text-align: center;
+}
+.section-subhead-text{
+ font-size:25px;
+ color:rgb(153, 153, 153);
+ line-height:35px;
+ max-width:470px;
+ text-align:center;
+ margin-top:0px;
+ margin-right:0px;
+ margin-bottom:60px;
+ margin-left:0px;
+}
+.k1 {
+  font-size: 7vw;
+  font-family: 'Suez One', serif;
+  color:#E0144C;
+}
+.k2 {
+  font-size: 3vw;
+  font-family: 'Suez One', serif;
+  color:#FF5858;
+}
+.img-wrapper img{
+ width:300px;
+ height: 300px;
+ border-radius: 1000px;
+ border-style: none;
+ margin-bottom: 30px;
+ padding-right: 20px;
+}
+.team-card{
+ display:flex;
+ flex-direction:column;
+ align-items:center;
+}
+.social-media-links{
+ width:125px;
+ display:flex;
+ justify-content:space-between;
+}
+.name{
+ font-size:25px;
+ font-weight:700;
+ color:rgb(102, 102, 102);
+ margin-top:0px;
+ margin-right:0px;
+ margin-bottom:15px;
+ margin-left:0px;
+}
+.position{
+  text-align: center;
+ font-size:25px;
+ font-weight:700;
+ color:#FF5858;
+ margin-top:0px;
+ margin-right:0px;
+ margin-bottom:50px;
+ margin-left:0px;
+}
+.team-img{
+ width:100%;
+ height:100%;
+}
+.team-card-container{
+ width:280px;
+ margin:0 0 40px 0;
+}
+@media (max-width: 500px){
+ .outer-container{
+   padding:10px 20px 10px 20px;
+ }
+ .section-head-text{
+   text-align:center;
+ }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&display=swap');
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.wk-desk-1{
+  width: 8.333333%;
+}
+.wk-desk-2{
+  width: 16.666667%;
+}
+.wk-desk-3{
+  width: 25%;
+}
+.wk-desk-4{
+  width: 33.333333%;
+}
+.wk-desk-5{
+  width: 41.666667%;
+}
+.wk-desk-6{
+  width: 50%;
+}
+.wk-desk-7{
+  width: 58.333333%;
+}
+.wk-desk-8{
+  width: 66.666667%;
+}
+.wk-desk-9{
+  width: 75%;
+}
+.wk-desk-10{
+  width: 83.333333%;
+}
+.wk-desk-11{
+  width: 91.666667%;
+}
+.wk-desk-12{
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .wk-ipadp-1{
+    width: 8.333333%;
+  }
+  .wk-ipadp-2{
+    width: 16.666667%;
+  }
+  .wk-ipadp-3{
+    width: 25%;
+  }
+  .wk-ipadp-4{
+    width: 33.333333%;
+  }
+  .wk-ipadp-5{
+    width: 41.666667%;
+  }
+  .wk-ipadp-6{
+    width: 50%;
+  }
+  .wk-ipadp-7{
+    width: 58.333333%;
+  }
+  .wk-ipadp-8{
+    width: 66.666667%;
+  }
+  .wk-ipadp-9{
+    width: 75%;
+  }
+  .wk-ipadp-10{
+    width: 83.333333%;
+  }
+  .wk-ipadp-11{
+    width: 91.666667%;
+  }
+  .wk-ipadp-12{
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .wk-tab-1{
+    width: 8.333333%;
+  }
+  .wk-tab-2{
+    width: 16.666667%;
+  }
+  .wk-tab-3{
+    width: 25%;
+  }
+  .wk-tab-4{
+    width: 33.333333%;
+  }
+  .wk-tab-5{
+    width: 41.666667%;
+  }
+  .wk-tab-6{
+    width: 50%;
+  }
+  .wk-tab-7{
+    width: 58.333333%;
+  }
+  .wk-tab-8{
+    width: 66.666667%;
+  }
+  .wk-tab-9{
+    width: 75%;
+  }
+  .wk-tab-10{
+    width: 83.333333%;
+  }
+  .wk-tab-11{
+    width: 91.666667%;
+  }
+  .wk-tab-12{
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .wk-mobile-1{
+    width: 8.333333%;
+  }
+  .wk-mobile-2{
+    width: 16.666667%;
+  }
+  .wk-mobile-3{
+    width: 25%;
+  }
+  .wk-mobile-4{
+    width: 33.333333%;
+  }
+  .wk-mobile-5{
+    width: 41.666667%;
+  }
+  .wk-mobile-6{
+    width: 50%;
+  }
+  .wk-mobile-7{
+    width: 58.333333%;
+  }
+  .wk-mobile-8{
+    width: 66.666667%;
+  }
+  .wk-mobile-9{
+    width: 75%;
+  }
+  .wk-mobile-10{
+    width: 83.333333%;
+  }
+  .wk-mobile-11{
+    width: 91.666667%;
+  }
+  .wk-mobile-12{
+    width: 100%;
+  }
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  width: 80vw;
+  position: fixed;
+  left: 10vw;
+  top: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Kurale', serif;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+}
+
+.topnav a.active {
+  background-color: red;
+  color: white;
+  border-radius: 20px;
+}
+
+.topnav .icon {
+  display: none;
+}
+.t1 {
+  font-size: 4vw;
+  color: white;
+  position: absolute;
+  left: 11.71875vw;
+  top: 18.71875vw;
+  font-family: 'Suez One', serif;
+  width: 65.1041667vw;
+}
+.t1 span{
+  font-size: 8vw;
+  font-family: 'Suez One', serif;
+}
+@media screen and (max-width: 1110px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 1110px) {
+  .topnav.responsive {position: fixed;;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+.container-preloader {
+	align-items:center; cursor:none; display:flex; height:100%;
+  justify-content:center; position:fixed; left:0; top:0; width:100%; z-index:900;
+}
+.container-preloader .animation-preloader {
+	position:absolute; z-index: 100;}
+/* Spinner Loading */
+.container-preloader .animation-preloader .spinner {
+  animation: spinner 1s infinite linear;
+	border-radius: 50%;  border: 13px solid rgba(0, 0, 0, 0.2);
+  border-top-color: red; /* It is not in alphabetical order so that you do not overwrite it */
+  height: 9em;  margin: 0 auto 3.5em auto; width: 9em;
+}
+/* Loading text */
+.container-preloader .animation-preloader .txt-loading {
+  font: bold 6em 'Montserrat', sans-serif;
+	text-align: center;	user-select: none;
+}
+.container-preloader .animation-preloader .txt-loading .characters:before {
+  animation: characters 4s infinite;  color: white;
+  content: attr(preloader-text);  left: 0;
+  opacity: 0;  position: absolute;  top: 0;
+  transform: rotateY(-90deg);
+}
+.container-preloader .animation-preloader .txt-loading .characters {
+	color: rgba(0, 0, 0, 0.2);	position: relative;
+}
+.container-preloader .animation-preloader .txt-loading .characters:nth-child(2):before {
+  animation-delay: 0.2s;
+}
+.container-preloader .animation-preloader .txt-loading .characters:nth-child(3):before {
+  animation-delay: 0.4s;
+}
+.container-preloader .animation-preloader .txt-loading .characters:nth-child(4):before {
+  animation-delay: 0.6s;
+}
+.container-preloader .animation-preloader .txt-loading .characters:nth-child(5):before {
+  animation-delay: 0.8s;
+}
+.container-preloader .animation-preloader .txt-loading .characters:nth-child(6):before {
+  animation-delay: 1s;
+}
+.container-preloader .animation-preloader .txt-loading .characters:nth-child(7):before {
+  animation-delay: 1.2s;
+}
+.container-preloader .loader-section {
+  background-image: url("bg3.jpg"); background-size: cover;height: 100%;
+  position: fixed;  top: 0;  width: 100vw;
+}
+.container-preloader .loader-section.section-left {
+  left: 0;
+}
+.container-preloader .loader-section.section-right {
+  right: 0;
+}
+/* Fade effect on loading animation */
+.loaded .animation-preloader {
+  opacity: 0;
+  transition: 0.3s ease-out;
+}
+/* Curtain effect */
+.loaded .loader-section.section-left {
+  transform: translateX(-101%);
+  transition: 0.7s 0.3s all cubic-bezier(0.1, 0.1, 0.1, 1.000);
+}
+.loaded .loader-section.section-right {
+  transform: translateX(101%);
+  transition: 0.7s 0.3s all cubic-bezier(0.1, 0.1, 0.1, 1.000);
+}
+/* Animation of the preloader */
+@keyframes spinner {
+to {
+	transform: rotateZ(360deg);
+}}
+/* Animation of letters loading from the preloader */
+@keyframes characters {
+  0%,
+  75%,
+  100% {
+ opacity: 0;
+ transform: rotateY(-90deg);
+  }
+  25%,
+  50% {
+    opacity: 1;
+    transform: rotateY(0deg);
+  }}
+/* Laptop size back (laptop, tablet, cell phone) */
+@media screen and (max-width: 767px) {
+	/* Preloader */
+	/* Spinner Loading */
+	.container-preloader .animation-preloader .spinner {
+	height: 8em;
+	width: 8em;
+	}
+	/* Text Loading */
+	.container-preloader .animation-preloader .txt-loading {
+	  font: bold 3.5em 'Montserrat', sans-serif;
+	}}
+@media screen and (max-width: 500px) {
+	/* Prelaoder */
+	/* Spinner Loading */
+	.container-preloader .animation-preloader .spinner {
+	height: 7em;
+	width: 7em;
+	}
+	/*Loading text */
+	.container-preloader .animation-preloader .txt-loading {
+	  font: bold 2em 'Montserrat', sans-serif;
+	}}
+.origin{text-decoration:none;
+font-size:45px;}

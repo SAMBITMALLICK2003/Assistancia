@@ -44,6 +44,7 @@ To run Assistancia on your local machine, follow these steps:
     ```
 
 3. **Open the `index.html` file in your browser.**
+4. **Click here to open the github pages of this repo `https://sambitmallick2003.github.io/Assistancia/`**
 
 
 ## 📞 Contact
